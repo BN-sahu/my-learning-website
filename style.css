@@ -1,0 +1,83 @@
+/* General page style */
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background: linear-gradient(135deg, #e3f2fd, #fce4ec);
+  margin: 0;
+  padding: 0;
+}
+
+/* Page header */
+h1 {
+  background: #007BFF;
+  color: white;
+  padding: 20px;
+  margin: 0;
+}
+
+/* Options grid (Home page) */
+.options {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+  padding: 30px;
+}
+
+/* Option cards */
+.card {
+  background: white;
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+  cursor: pointer;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 6px 12px rgba(0,0,0,0.3);
+}
+
+.card h2 {
+  color: #007BFF;
+}
+
+/* Links */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Back button (other pages) */
+.back-btn {
+  display: inline-block;
+  margin-top: 20px;
+  text-decoration: none;
+  color: white;
+  background: #007BFF;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+
+.back-btn:hover {
+  background: #0056b3;
+}
+
+/* Navbar */
+.navbar {
+  background: #007BFF;
+  padding: 15px;
+  text-align: center;
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+  margin: 0 15px;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+.navbar a:hover {
+  color: #ffeb3b;
+}
